@@ -11,4 +11,4 @@
 - [Mac和Windows下的git工具](https://github.com/lcyuhe/StudyNotes/tree/master/Mac%E5%92%8CWindows%E4%B8%8B%E7%9A%84git%E5%B7%A5%E5%85%B7)
 - [JSX实现换行](https://blog.csdn.net/Zckguiying/article/details/88641357)（\n + white-space:pre-line;）
 - [控制input光标的位置](https://segmentfault.com/a/1190000016758141)（input.selectionStart属性）
-- [启动一个web服务](http://www.ruanyifeng.com/blog/2019/02/npx.html)（npx http-server）
+- [启动一个web服务](https://blog.csdn.net/weixin_39786582/article/details/83857059)（npx http-server）
