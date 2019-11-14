@@ -13,3 +13,4 @@
 - [控制input光标的位置](https://segmentfault.com/a/1190000016758141)（input.selectionStart属性）
 - [启动一个web服务](https://blog.csdn.net/weixin_39786582/article/details/83857059)（npx http-server）
 - [对资源添加版本号解决浏览器缓存问题](https://www.jianshu.com/p/2e554161b930)（使用gulp）
+- [electron web页面间交互](https://github.com/hokein/electron-screen-recorder/blob/master/src/main.js)
