@@ -20,3 +20,6 @@
 - [对资源添加版本号解决浏览器缓存问题](https://www.jianshu.com/p/2e554161b930)（使用 gulp）
 - [electron web 页面间交互](https://github.com/hokein/electron-screen-recorder/blob/master/src/main.js)
 - electron 窗口间传递 MediaStream 对象（IPC only supports serialised messages and does not preserve MediaStreams or ObjectUrls）：[Pass Mediastream from One Window to Another](https://discuss.atom.io/t/pass-mediastream-from-one-window-to-another/29963)、[electron-peer-connection](https://github.com/han-gyeol/electron-peer-connection)
+- [判断是数组](https://segmentfault.com/a/1190000006150186)（1、Array.isArray(var) 2、Object.prototype.toString.call(var)|Object.prototype.toString.apply(var) = ('[object Object]'、'[object Array]'、''、'[object Boolean]'、'[object String]'、'[object Number]')）
+  <br/>
+  <img src='./images/WX20191122-090116@2x.png' width="400px">
