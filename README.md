@@ -23,3 +23,5 @@
 - [判断是数组](https://segmentfault.com/a/1190000006150186)（1、Array.isArray(var) 2、Object.prototype.toString.call(var)|Object.prototype.toString.apply(var) = ('[object Object]'、'[object Array]'、''、'[object Boolean]'、'[object String]'、'[object Number]')）
   <br/>
   <img src='./images/WX20191122-090116@2x.png' width="400px">
+- [node 压缩工具 compressing](https://github.com/node-modules/compressing)
+- [fetch 上传文件](https://zhuanlan.zhihu.com/p/34291688)
