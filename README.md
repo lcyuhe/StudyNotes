@@ -25,3 +25,4 @@
   <img src='./images/WX20191122-090116@2x.png' width="400px">
 - [node 压缩工具 compressing](https://github.com/node-modules/compressing)
 - [fetch 上传文件](https://zhuanlan.zhihu.com/p/34291688)
+- [React 将字符串中的 URL 转换为适当的 a 元素](https://juejin.im/post/5ce411f66fb9a07edc0b2b1f)
