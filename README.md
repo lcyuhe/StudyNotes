@@ -31,7 +31,7 @@
   <img src='./images/WX20200204-105011@2x.png' width="400px">
 - electron 窗口间传递 MediaStream 对象（IPC only supports serialised messages and does not preserve MediaStreams or ObjectUrls）：[Pass Mediastream from One Window to Another](https://discuss.atom.io/t/pass-mediastream-from-one-window-to-another/29963)、[electron-peer-connection](https://github.com/han-gyeol/electron-peer-connection)
 - [electron-builder将资源保存获取绝对路径](https://stackoverflow.com/questions/41823184/how-to-get-icon-path-image-in-electron-builder) => 第二个回答
-<br/>
+   <br/>
   1.Make sure you have this in your package.json:
   ```
     "build": {
