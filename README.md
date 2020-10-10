@@ -46,7 +46,7 @@
   const assetsPath = app.isPackaged ? path.join(process.resourcesPath, "./assets") : path.join("./assets");
   ```
 - [electron render process中process.platform返回undefined](https://github.com/electron/electron/issues/5224)
-<br/>
-```
-remote.getGlobal('process')
-```
+  <br/>
+  ```
+  remote.getGlobal('process')
+  ```
