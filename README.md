@@ -48,7 +48,7 @@
 - [electron render process中process.platform返回undefined](https://github.com/electron/electron/issues/5224)
   <br/>
   "Seems a bit strange to use environment variables for communication between processes 👍
-  But as a temporary workaround you might be able to use remote.getGlobal('process').env."
+  But as a temporary workaround you might be able to use remote.getGlobal('process').platform."
   ```
   remote.getGlobal('process')
   ```
