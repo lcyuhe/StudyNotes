@@ -52,3 +52,12 @@
   ```
   remote.getGlobal('process')
   ```
+- mouse event中获取目标元素的class name 参考 [element.className](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/className)
+  ```
+  <div onclick="f(e)"></div>
+  
+  function f(e){
+    console.log(e.target.className);
+  }
+  ```
+
