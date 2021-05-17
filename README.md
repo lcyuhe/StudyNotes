@@ -60,4 +60,6 @@
     console.log(e.target.className);
   }
   ```
+- nodejs 设置系统声音，利用 [loudness](https://github.com/LinusU/node-loudness)  
+  注意，是 yarn add loudness
 
