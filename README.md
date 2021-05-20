@@ -63,3 +63,13 @@
 - nodejs 设置系统声音，利用 [loudness](https://github.com/LinusU/node-loudness)  
   注意，是 yarn add loudness
 
+- [处理前端异常](catchErrors/index.html)
+  ```
+  1.可疑区域增加 Try-Catch
+  2.全局监控 JS 异常 window.onerror
+  3.全局监控静态资源异常 window.addEventListener
+  4.捕获没有 Catch 的 Promise 异常：unhandledrejection
+  5.VUE errorHandler 和 React componentDidCatch
+  6.监控网页崩溃：window 对象的 load 和 beforeunload
+  7.跨域 crossOrigin 解决
+  ```
