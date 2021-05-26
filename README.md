@@ -73,3 +73,11 @@
   6.监控网页崩溃：window 对象的 load 和 beforeunload
   7.跨域 crossOrigin 解决
   ```
+
+- 音视频自动播放
+
+  [新的web标准不允许音视频自动播放](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes)
+
+  electron中添加以下命令可以实现音视频自动播放([参考](https://github.com/electron/electron/issues/13525))
+  ```
+  app.commandLine.appendSwitch('autoplay-policy', 'no-user-gesture-required');
