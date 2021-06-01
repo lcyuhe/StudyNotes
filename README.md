@@ -81,3 +81,29 @@
   electron中添加以下命令可以实现音视频自动播放([参考](https://github.com/electron/electron/issues/13525))
   ```
   app.commandLine.appendSwitch('autoplay-policy', 'no-user-gesture-required');
+
+- gyp ERR! stack Error: `C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe` failed with exit code: 1
+  
+  解决方法是将node从10.15.3升到了14.17.0
+
+- fix error
+  ``` $ npm install lib-jitsi-meet/lib-jitsi-meet.min
+  npm ERR! Error while executing:
+  npm ERR! C:\Program Files\Git\mingw64\bin\git.EXE ls-remote -h -t ssh://git@github.com/lib-jitsi-meet/lib-jitsi-meet.min.git
+  npm ERR!
+  npm ERR! ERROR: Repository not found.
+  npm ERR! fatal: Could not read from remote repository.
+  npm ERR!
+  npm ERR! Please make sure you have the correct access rights
+  npm ERR! and the repository exists.
+  npm ERR!
+  npm ERR! exited with error code: 128
+
+  npm ERR! A complete log of this run can be found in:
+  npm ERR!     C:\Users\trackview\AppData\Roaming\npm-cache\_logs\2021-06-01T07_46_41_124Z-debug.log
+  ```
+  解决方法：
+  ```
+  cd node_modules/lib-jitsi-meet
+  npm install
+  ```
