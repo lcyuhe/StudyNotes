@@ -84,7 +84,9 @@
 
 - gyp ERR! stack Error: `C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe` failed with exit code: 1
   
-  解决方法是将node从10.15.3升到了14.17.0
+  这个问题是在做teamlink-rooms项目引入hid-helpers时，执行npm install产生的，尝试了将nodejs升到最新的14版本、升级build tools、删除node_modules等多种方法，最后发现将nodejs升级到12.22.1，然   后执行npm install，不再报错，所以猜测是add-on使用的nodejs版本和本地不一致导致它里面的一些引用方法在本地找不到，左右msbuild编译失败；
+  
+  总结：因为本地nodejs版本和addon使用的nodejs版本不一致导致的，解决办法是统一nodejs版本
 
 - fix error
   ``` $ npm install lib-jitsi-meet/lib-jitsi-meet.min
