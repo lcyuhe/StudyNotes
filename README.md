@@ -111,6 +111,8 @@
   ```
 
 - 如何将两个摄像头拿到的video合成为一个video，
+- 
   原理是：通过 getUserMedia 拿到[MediaStream](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream)，MediaStream有addTrack和removeTrack方法
   用removeTrack将原来的videoTrack移除，用addTrack将新的videoTrack加入
+  
   难点是如何将两个videoTrack按照某种排列规则合成一个
