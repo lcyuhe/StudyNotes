@@ -117,5 +117,5 @@
   
   难点是如何将两个videoTrack按照某种排列规则合成一个
   
-- [量化网页性能优化](https://juejin.cn/post/6850037270729359367#heading-5)
+- [量化网页性能优化](https://juejin.cn/post/6850037270729359367)
 - [当你在浏览器中输入 google.com 并且按下回车之后发生了什么？](https://github.com/skyline75489/what-happens-when-zh_CN)
