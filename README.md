@@ -121,3 +121,15 @@
 - [当你在浏览器中输入 google.com 并且按下回车之后发生了什么？](https://github.com/skyline75489/what-happens-when-zh_CN)
 - 用[electron-webpack](https://github.com/electron-userland/electron-webpack-quick-start)快速开始一个electron应用
 - [用Electron, React, React Router, Webpack and React Fast Refresh.快速开始一个应用](https://github.com/electron-react-boilerplate/electron-react-boilerplate)
+- [防抖函数](https://www.lodashjs.com/docs/lodash.debounce)
+  
+  ```
+  import $ from 'jquery';
+  import _ from 'lodash';
+  $(window).on(
+    'resize',
+    _.debounce(() => {
+      console.log('resize');
+    }, 2000),
+  );
+  ```
