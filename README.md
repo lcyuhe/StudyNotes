@@ -133,3 +133,5 @@
     }, 2000),
   );
   ```
+ - chrome网页内MediaTag(video、audio)的数量限制引发的错误 Blocked attempt to create a WebMediaPlayer as there are too many WebMediaPlayers already in existence.
+   https://www.cjavapy.com/article/2120/
