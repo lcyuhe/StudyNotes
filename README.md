@@ -134,4 +134,7 @@
   );
   ```
  - chrome网页内MediaTag(video、audio)的数量限制引发的错误 Blocked attempt to create a WebMediaPlayer as there are too many WebMediaPlayers already in existence.
-   https://www.cjavapy.com/article/2120/
+ 
+   https://www.cjavapy.com/article/2120/ (其中的清理方法不对，用下面的)
+   
+   解决：使用完后清理掉， 比如：videoEle.src=''; videoEle.remove()
