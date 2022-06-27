@@ -138,3 +138,6 @@
    https://www.cjavapy.com/article/2120/ (其中的清理方法不对，用下面的)
    
    解决：使用完后清理掉， 比如：videoEle.src=''; videoEle.remove()
+
+- Could not locate the bindings file![image](https://user-images.githubusercontent.com/7930174/175893893-7085af5d-c7a1-45b5-b8ed-77962c027dc0.png)
+
