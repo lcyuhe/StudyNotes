@@ -140,4 +140,6 @@
    解决：使用完后清理掉， 比如：videoEle.src=''; videoEle.remove()
 
 - Could not locate the bindings file![image](https://user-images.githubusercontent.com/7930174/175893893-7085af5d-c7a1-45b5-b8ed-77962c027dc0.png)
+- ![Snipaste_2022-07-05_14-57-12](https://user-images.githubusercontent.com/7930174/177268862-c3ba8923-4d1d-4822-abf9-2284bd48970e.png)
+ ![Snipaste_2022-07-05_14-59-40](https://user-images.githubusercontent.com/7930174/177268880-4ae6640d-d542-419d-bdd1-3071a27db9e9.png)
 
