@@ -149,4 +149,5 @@ let selObj = window.getSelection();
     let selRange = selObj.getRangeAt(0);
     // 其他代码
 ```
+- npm install或yarn失败，而其他人能成功，先比较下环境，即node、npm、yarn的版本是否一样，不一样的话先更新到一样的版本再试下
 
