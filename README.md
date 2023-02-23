@@ -150,4 +150,10 @@ let selObj = window.getSelection();
     // 其他代码
 ```
 - npm install或yarn失败，而其他人能成功，先比较下环境，即node、npm、yarn的版本是否一样，不一样的话先更新到一样的版本再试下
+- 处理报错
+
+Error: Command failed: rm -rf node_modules/electron/dist/ && unzip node_modules/c-electron-builds/darwin-x64/dist.zip -d node_modules/electron/dist && cp node_modules/c-electron-builds/darwin-x64/dist.zip ~/Library/Caches/electron/electron-v4.0.4-darwin-x64.zip
+cp: /Users/yuhe/Library/Caches/electron/electron-v4.0.4-darwin-x64.zip: No such file or directory
+
+验证该路径下的文件夹是否都存在（/Users/yuhe/Library/Caches/electron），不存在的手动创建
 
