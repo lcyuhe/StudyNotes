@@ -157,3 +157,13 @@ cp: /Users/yuhe/Library/Caches/electron/electron-v4.0.4-darwin-x64.zip: No such 
 
 验证该路径下的文件夹是否都存在（/Users/yuhe/Library/Caches/electron），不存在的手动创建
 
+- 执行code .时报错 /usr/local/bin/code: line 6: python: command not found
+  ![解决](https://trungk18.com/experience/bin-code-line-6-python-command-not-found/)
+  ```
+  cd /usr/local/bin
+nano code
+change python => python3 on the following line
+- function realpath() { python -c ...
++ function realpath() { python3 -c ...
+  ```
+
